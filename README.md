@@ -23,7 +23,7 @@ A lightweight Flutter wrapper for integrating AI-powered chatbot functionality i
 dependencies:
   ai_chatbot_wrapper:
     git:
-      url: https://github.com/your_username/ai_chatbot_wrapper.git  # Replace with your GitHub URL
+      url: https://github.com/DeepakKishore-S/ai_chatbot_wrapper  # Replace with your GitHub URL
 ```
 
 #### Using Local Path (for local development/testing)
