@@ -1,0 +1,19 @@
+name: ai_chatbot_wrapper
+description: "A Flutter package for integrating AI chatbots with OpenAI or mock responses."
+version: 0.0.1
+homepage: "https://github.com/your_username/ai_chatbot_wrapper"  # Replace with your actual URL
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # Update to a more stable Dart SDK range
+  flutter: ">=2.0.0"  # Ensure Flutter version is at least 2.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Lints package for better code quality
+  mockito: ^5.4.6
