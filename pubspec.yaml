@@ -1,6 +1,6 @@
 name: ai_chatbot_wrapper
 description: "A Flutter package for integrating AI chatbots with OpenAI or mock responses."
-version: 0.0.1
+version: 0.0.2
 homepage: "https://github.com/your_username/ai_chatbot_wrapper"  # Replace with your actual URL
 
 environment:
