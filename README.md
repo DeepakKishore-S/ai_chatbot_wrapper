@@ -1,14 +1,3 @@
-# ai_chatbot_wrapper
-
-`ai_chatbot_wrapper` is a Flutter package designed to integrate AI chatbot functionality into your app. It allows you to easily integrate real or mock AI services like OpenAI GPT for chat interactions. With simple UI components and customizable elements, it enables you to create a smooth and responsive chatbot experience.
-
-## Features
-
-- **Send and receive messages**: Easily integrate AI models like OpenAI GPT to send and receive messages.
-- **Mock AI service**: For local testing, use a mock AI service that simulates AI responses.
-- **Customizable UI**: Flexible and easy-to-use UI components that you can customize to fit your app’s design.
-- **Loading indicator**: Shows a "typing..." effect instead of a traditional loading spinner while waiting for AI responses.
-
 ## Installation
 
 To use `ai_chatbot_wrapper` in your Flutter project, follow these steps:
@@ -25,6 +14,10 @@ dependencies:
     git:
       url: https://github.com/your_username/ai_chatbot_wrapper.git  # Replace with your GitHub URL
 ```
+
+✅ **Key fix**: Ensure you're wrapping the YAML section **inside a Markdown code block** with triple backticks and `yaml` as the language specifier.
+
+Would you like help formatting the rest of your README?
 
 #### Using Local Path (for local development/testing):
 
