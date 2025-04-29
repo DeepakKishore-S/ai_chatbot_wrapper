@@ -13,15 +13,14 @@ class OpenAIService {
 
     final body = jsonEncode({
       'model': model,
-      'messages':
-          messages
-              .map(
-                (msg) => {
-                  'role': msg.isUser ? 'user' : 'assistant',
-                  'content': msg.text,
-                },
-              )
-              .toList(),
+      'messages': messages
+          .map(
+            (msg) => {
+              'role': msg.isUser ? 'user' : 'assistant',
+              'content': msg.text,
+            },
+          )
+          .toList(),
       'temperature': 0.7,
     });
 

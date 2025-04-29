@@ -116,10 +116,9 @@ class _ChatBotViewState extends State<ChatBotView> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Column(
-                    crossAxisAlignment:
-                        msg.isUser
-                            ? CrossAxisAlignment.end
-                            : CrossAxisAlignment.start,
+                    crossAxisAlignment: msg.isUser
+                        ? CrossAxisAlignment.end
+                        : CrossAxisAlignment.start,
                     children: [
                       Text(
                         msg.text,
